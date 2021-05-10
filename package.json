@@ -1,0 +1,26 @@
+{
+  "name": "remote-lit",
+  "version": "1.0.0",
+  "description": "prevent from moving one's ass to put next tv shows episode",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Pelow",
+  "license": "ISC",
+
+  "bin":"./RemoteLit.js",
+  "pkg": {
+    "assets": [ "/assets/**/*"],
+    "targets": [ "node14-win-x64" ],
+    "outputPath": "dist"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mousebot": "^1.0.1",
+    "robotjs": "^0.6.0",
+    "socket.io": "^4.0.1"
+  }
+}

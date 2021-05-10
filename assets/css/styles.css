@@ -1,0 +1,57 @@
+input[type=range] {
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 44px;
+    background: rgb(88, 80, 80);
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb, input[type=range]::-webkit-slider-thumb:focus {
+    -webkit-appearance: none;
+    border: none;
+    margin-bottom: 10px;
+    height: 64px;
+    width: 64px;
+    border-radius: 100%;
+    background: goldenrod;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+textarea.form-control {
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+
+div#joyDiv {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 25px;
+}
+
+canvas#pad {
+    margin-top: 20px;
+    background: rgb(214, 247, 255);
+    background: radial-gradient(circle, rgba(214, 247, 255, 1) 0%, rgba(98, 101, 103, 1) 100%);
+    width: 100%;
+    height: 800px;
+    background : linear-gradient(#2179c7 0%, #186ab6 25%, #1364af 75%, #0c4885 100%);
+}
+
